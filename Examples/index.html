@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Mask Example</title>
+    <script src="src/simpleMask-1.0.min.js"></script>
+</head>
+
+<body>
+
+    <input type="text" placeholder="R$ 0,00" oninput="prefixRealMask(this)" />
+    <input type="text" placeholder="0,00" oninput="RealMask(this)" />
+    <input type="text" placeholder="000.000.000-00" oninput="cpfMask(this)" />
+    <input type="text" placeholder="00.000.000/0000-00" oninput="cnpjMask(this)" />
+    <input type="text" placeholder="0" oninput="numberMask(this)" />
+    <input type="text" placeholder="(00) 00000-0000" oninput="cellPhoneMask(this)" />
+    <input type="text" placeholder="0000-0000" oninput="phoneMask(this)" />
+    <input type="text" placeholder="00.000-000" oninput="cepMask(this)" />
+    <input type="text" placeholder="00.000000-0" oninput="inscricaoEstadualMask(this)" />
+
+</body>
+
+</html>
