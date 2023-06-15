@@ -1,0 +1,22 @@
+{
+  "name": "simple-input-mask",
+  "version": "1.0.0",
+  "description": "This is a set of JavaScript functions for applying formatting masks to input fields.",
+  "main": "./src/simpleMask-1.0.min.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CristyanHenrich/simple-input-mask.git"
+  },
+  "keywords": [
+    "Mask"
+  ],
+  "author": "Cristyan Henrich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CristyanHenrich/simple-input-mask/issues"
+  },
+  "homepage": "https://github.com/CristyanHenrich/simple-input-mask#readme"
+}
